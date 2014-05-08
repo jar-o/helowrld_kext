@@ -1,7 +1,7 @@
 # KEXT for Mavericks without code signing
 
 This is a very basic Kernel Extension (KEXT) that does nothing except `printf()`
-a couple log entries to the **Console**.
+a couple log entries to the *Console*.
 
 Although it may seem otherwise, you don't need to code sign your KEXT in order to
 get it to run on Mavericks. You simply need to do the following:
