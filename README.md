@@ -16,12 +16,12 @@ Do
 
 4. Then, load:
 
-    `sudo kextload /System/Library/Extensions/helowrld_kext`
+    `sudo kextload /System/Library/Extensions/helowrld_kext.kext`
 
 5. You should see the message "helowrld" from *kernel* if you check *Console*.
 6. To end it:
 
-    `sudo kextunload /System/Library/Extensions/helowrld_kext`
+    `sudo kextunload /System/Library/Extensions/helowrld_kext.kext`
 
 7. You should see "helowrld:stop" in *Console*
 
